@@ -1,0 +1,28 @@
+﻿<Controls:MetroWindow x:Class="MP4_maker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:local="clr-namespace:MP4_maker"
+        mc:Ignorable="d"
+        Title="MP4 Maker"
+        WindowState="Maximized" ResizeMode="CanResizeWithGrip">
+    <Grid>
+        <Label x:Name="fileName" Content="Filename: " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="70"/>
+        <Button x:Name="chooseFileButton" Content="Choose File" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="75" Click="chooseFileButtonClicked"/>
+        <Label x:Name="inputFileLocation" Content="" HorizontalAlignment="Left" Margin="85,10,0,0" VerticalAlignment="Top" Width="670"/>
+        <Label x:Name="startTime" Content="Start Time" HorizontalAlignment="Left" Margin="10,202,0,0" VerticalAlignment="Top" Width="65"/>
+        <TextBox x:Name="startTimeTextBox" HorizontalAlignment="Left" Height="23" Margin="89,203,0,0" TextWrapping="Wrap" Text="(mm:ss)" VerticalAlignment="Top" Width="76"/>
+        <Label x:Name="duration" Content="Duration" HorizontalAlignment="Left" Margin="170,202,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="durationTimeTextBox" HorizontalAlignment="Left" Height="23" Margin="226,202,0,0" TextWrapping="Wrap" Text="(in seconds)" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.484,0.503"/>
+        <Button x:Name="startButton" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,233,0,0" Click="startButton_Click"/>
+        <Label x:Name="outputFile" Content="Output file:" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" Width="70"/>
+        <Button x:Name="button" Content="Save As" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,92,0,0" Click="button_Click"/>
+        <Label x:Name="outputFileLocation" Content="" HorizontalAlignment="Left" Margin="85,66,0,0" VerticalAlignment="Top" Width="665"/>
+        <Label x:Name="ffmpegLocation" Content="ffmpeg location:" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="setffmpegLocation" Content="Location" HorizontalAlignment="Left" Margin="10,164,0,0" VerticalAlignment="Top" Width="75" Click="setffmpegLocation_Click"/>
+        <Label x:Name="ffmpegLocationLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,133,0,0" Width="638"/>
+
+    </Grid>
+</Controls:MetroWindow>
