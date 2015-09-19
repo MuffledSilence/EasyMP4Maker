@@ -9,4 +9,6 @@ Easy MP4 Maker requires an ffmpeg binary (available to download [HERE](http://ff
 Easy MP4 Maker uses the MahApps.Metro UI framework [http://mahapps.com/](http://mahapps.com/)
 
 # Download
-Easy MP4 Maker is availabe to download [HERE](http://muffledsilence.com/projects/mp4/EasyMP4Maker.zip) 
+Easy MP4 Maker is availabe to download [HERE](http://muffledsilence.com/projects/mp4/) 
+
+
